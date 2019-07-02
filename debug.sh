@@ -4,7 +4,7 @@
 #
 cd "$(dirname "$0")"
 
-#compile with debug flags on
+#compile with the debug flags on
 make -B DEBUG=true VERBOSE=true
 #launch GDB server for remote debugger to attach
 gdbserver :9091 /debug-app/blackbird
